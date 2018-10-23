@@ -76,10 +76,10 @@ public class SortDemoTest{
 	    
 	    SortDemoData data2 = new SortDemoData();
 	    data2.initializeArray("5 64 4");
-		assertTrue(data.myArray.length == 3);
+		assertTrue(data.myArray.length == 5);
 		assertTrue(data.myArray[0].key == data2.myArray[0].key );
-		assertTrue(data.myArray[1].key == data2.myArray[1].key );
-		assertTrue(data.myArray[2].key == data2.myArray[2].key );
+		assertTrue(data.myArray[1].key == data2.myArray[0].key );
+		assertTrue(data.myArray[2].key == data2.myArray[1].key );
 	}
 
 	
