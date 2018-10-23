@@ -1,16 +1,12 @@
 language: java
-jdk: oraclejdk7
-branches:
-  only:
-    - master
     
 before_cache:
-  - rm -f  $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle/caches/modules-2/modules-2.lock
-  - rm -fr $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle/caches/*/plugin-resolution/
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
 cache:
   directories:
-    - $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle/caches/
-    - $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle/wrapper/
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
     
 
 
