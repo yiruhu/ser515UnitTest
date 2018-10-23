@@ -17,6 +17,6 @@ script:
   - ./gradlew -b finalize.gradle finalize -i
 
 before_cache:
-  - rm -f  $HOME/ser515UnitTest/SortingGiven/SortingGiven/.gradle
-  - rm -fr $HOME/ser515UnitTest/SortingGiven/SortingGiven/.gradle
+  - rm -f  $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle
+  - rm -fr $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle
 
