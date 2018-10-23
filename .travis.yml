@@ -1,10 +1,11 @@
 language: java
+jdk: oraclejdk7
 branches:
   only:
     - master
 cache:
   directories:
-    - $HOME/.gradle
+    - $HOME/ser515UnitTest/SortingGiven/SortingGiven/.gradle
 before_script:
   - git fetch
   - git checkout -b gh-pages
@@ -16,9 +17,8 @@ script:
   - ./gradlew -b finalize.gradle finalize -i
 
 before_cache:
-  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
-  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
-  after_script:
+  - rm -f  $HOME/ser515UnitTest/SortingGiven/SortingGiven/.gradle
+  - rm -fr $HOMEser515UnitTest/SortingGiven/SortingGiven/.gradle
   - git add .
   # something@example.com
   - git config user.email "${GIT_EMAIL}"
