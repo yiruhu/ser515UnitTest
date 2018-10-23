@@ -3,12 +3,14 @@ jdk: oraclejdk7
 branches:
   only:
     - master
+    
+before_cache:
+  - rm -f  $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle/caches/*/plugin-resolution/
 cache:
   directories:
-    - $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle
+    - $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle/caches/
+    - $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle/wrapper/
+    
 
-
-before_cache:
-  - rm -f  $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle
-  - rm -fr $yiruhu/ser515UnitTest/SortingGiven/SortingGiven/.gradle
 
