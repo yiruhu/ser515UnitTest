@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.junit.Rule"/>
-<fullyQualifiedTypeName name="org.junit.rules.ExpectedException"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
-<fullyQualifiedTypeName name="main.java.SortAlgos"/>
-</qualifiedTypeNameHistroy>
