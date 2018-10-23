@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.java.AlgoTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-10-22T05:45:10" hostname="huhu-desktop" time="0.01">
+<testsuite name="test.java.AlgoTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-10-23T04:44:08" hostname="huhu-desktop" time="0.015">
   <properties/>
-  <testcase name="bubble" classname="test.java.AlgoTest" time="0.005"/>
-  <testcase name="insert" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="selectExceptionMessage" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="bubble" classname="test.java.AlgoTest" time="0.004"/>
+  <testcase name="insert" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="selectExceptionMessage" classname="test.java.AlgoTest" time="0.001"/>
   <testcase name="select" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="insertExceptionMessage" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="heapExceptionMessage" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="heap" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="heap" classname="test.java.AlgoTest" time="0.001"/>
   <testcase name="quik" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="merge" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="mergeExceptionMessage" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="bubbleExceptionMessage" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="quickExceptionMessage" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="mergeExceptionMessage" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="bubbleExceptionMessage" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="quickExceptionMessage" classname="test.java.AlgoTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
