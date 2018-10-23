@@ -1,12 +1,12 @@
 language: java
     
 before_cache:
-  - rm -f  $HOME/SortingGiven/.gradle/caches/modules-2/modules-2.lock
-  - rm -fr $HOME/SortingGiven/.gradle/caches/*/plugin-resolution/
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
 cache:
   directories:
-    - $HOME/SortingGiven/.gradle/caches/
-    - $HOME/SortingGiven/.gradle/wrapper/
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
     
 
 
