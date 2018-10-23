@@ -18,13 +18,5 @@ script:
 
 before_cache:
   - rm -f  $HOME/ser515UnitTest/SortingGiven/SortingGiven/.gradle
-  - rm -fr $HOMEser515UnitTest/SortingGiven/SortingGiven/.gradle
-  - git add .
-  # something@example.com
-  - git config user.email "${GIT_EMAIL}"
-  # First Last
-  - git config user.name "${GIT_NAME}"
-  - git commit -m "updating outputs"
-  # https://${GH_TOKEN}@github.com/asciidoctor/asciidoctor-gradle-examples.git
-  - git push -f "${GIT_URL}" gh-pages > /dev/null 2>&1
+  - rm -fr $HOME/ser515UnitTest/SortingGiven/SortingGiven/.gradle
 
